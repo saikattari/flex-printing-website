@@ -21,8 +21,7 @@ function Admin() {
     try {
 
       const res = await axios.get(
-        "http://localhost:5000/api/contacts"
-      )
+https://flex-printing-website.onrender.com      )
 
       setContacts(res.data.contacts)
 

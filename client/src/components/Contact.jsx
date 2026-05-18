@@ -36,8 +36,7 @@ function Contact() {
 
       const res = await axios.post(
 
-        "http://localhost:5000/api/contact",
-
+https://flex-printing-website.onrender.com
         formData
 
       )
