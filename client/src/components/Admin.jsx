@@ -21,7 +21,8 @@ function Admin() {
     try {
 
       const res = await axios.get(
-https://flex-printing-website.onrender.com      )
+        "https://flex-printing-website.onrender.com/api/contacts"
+      )
 
       setContacts(res.data.contacts)
 
@@ -80,7 +81,7 @@ https://flex-printing-website.onrender.com      )
 
         {/* TABLE */}
 
-        <div className="bg-[#0d1325] rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
+        <div className="bg-[#0d1325] rounded-3xl overflow-hidden border border-white/10 shadow-2xl overflow-x-auto">
 
           <table className="w-full">
 
